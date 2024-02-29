@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Pathway+Gothic+One&display=swap');
+
+
+
+
+.startBox {
+    display: block;
+}
+
+.cassandraBox {
+    display: none;
+}
+
+.jasonBox {
+    display: none;
+}
+
+.timBox {
+    display: none;
+}
+
+.graysonBox {
+    display: none;
+}
+
+body {
+    text-align: center;
+    background-color: #CAE5ff;
+}
+
+h1 {
+    background-color: #615D6C;
+    color: #CAE5ff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 4px #6F8AB7;
+    text-align: center;
+    font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;font-family: "Pathway Gothic One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    color: #615D6C;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input {
+    width: 33%;
+    transition: width 0.4s ease-in-out;
+  }
+  
+input:focus {
+    width: 50%;
+}
+
+button {
+    border: 2px solid #6F8AB7;
+    background-color: #615D6C;
+    color: #CAE5ff;
+    border-radius: 20%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.helldiver {
+    width: 50%;
+}
+
+img {
+    align-self: center;
+    width: 20%;
+}
