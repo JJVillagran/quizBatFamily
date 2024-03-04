@@ -40,7 +40,7 @@ button.addEventListener("click", function() {
         start.style.display = "none";
     }
     else {
-        message.innerHTML = "Please input an age and personality that corresponds with the quiz";
+        message.innerHTML = "Please input an age and personality that corresponds with the quiz.";
         message.style.color = "red";
     }
 });
