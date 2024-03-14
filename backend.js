@@ -61,6 +61,7 @@ console.log("graysonRestart");
  cassRestart.addEventListener("click", function() {
     cassandra.style.display = "none";
     start.style.display = "block";
+    age.innerHTML = "none";
 });
 
 jasonRestart.addEventListener("click", function() {

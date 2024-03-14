@@ -1,38 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Pathway+Gothic+One&display=swap');
 @import url('https://fonts.cdnfonts.com/css/batman-forever');
 
+/*decor for start page*/
 .startBox {
     display: block;
 }
 
+/*decor for cassandra page*/
 .cassandraBox {
     display: none;
 }
 
+/*decor for jason page*/
 .jasonBox {
     display: none;
 }
 
+/*decor for tim page*/
 .timBox {
     display: none;
 }
 
+/*decor for grayson page*/
 .graysonBox {
     display: none;
 }
 
+/*decor for body*/
 body {
     text-align: center;
     background-color: #CAE5ff;
 }
 
+/*decor for main text*/
 .justText {
     background-color: white;
     padding-top: 1%;
     padding-bottom: 1%;
-    border: 3px solid #6F8AB7
+    border: 3px solid #6F8AB7;
+    border-radius: 50px;
 }
 
+/*decor for heading 1*/
 h1 {
     color: #615D6C;
     padding-top: 1%;
@@ -43,6 +52,7 @@ h1 {
     font-family: 'BatmanForeverAlternate', sans-serif;
 }
 
+/*decor for navbar*/
 nav {
     display: flex;
     justify-content: space-around;
@@ -51,27 +61,34 @@ nav {
     border: 3px solid #6F8AB7;
     padding-top: 1%;
     padding-bottom: 1%;
+    border-radius: 100px;
 }
 
+/*decor for a tag*/
 a {
     display: flex;
     justify-content: space-around;
-    align-items: center;font-family: "Pathway Gothic One", sans-serif;
+    align-items: center;
+    font-family: "Pathway Gothic One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #CAE5ff;
-    text-decoration: none
+    text-decoration: none;
+    letter-spacing: 2px;
 }
 
+/*decor for my secret navbar*/
 .secretNav {
     color: #6F8AB7;
 }
 
+/*decor for heading 2*/
 h2 {
     color: #6F8AB7;
     font-family: 'BatmanForeverAlternate', sans-serif;
 }
 
+/*decor for paragraph tag*/
 p {
     color: #6F8AB7;
     font-family: "Comic Neue", cursive;
@@ -79,16 +96,21 @@ p {
     font-style: normal;
 }
 
+/*decor for input*/
 input {
+    padding: 5px;
     width: 33%;
     transition: width 0.4s ease-in-out;
     font-weight: bold;
+    border-radius: 100px;
   }
   
+/*decor for */
 input:focus {
     width: 50%;
     background-color: #CAE5ff;
     font-weight: bold;
+    text-decoration: none;
 }
 
 button {
@@ -96,7 +118,7 @@ button {
     border: 3px solid #6F8AB7;
     background-color: #615D6C;
     color: #CAE5ff;
-    border-radius: 20%;
+    border-radius: 100px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
